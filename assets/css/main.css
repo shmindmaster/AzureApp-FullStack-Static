@@ -1,5 +1,10 @@
 /*-------------------------------------------
 
+   Theme Name: Cresta - IT Solutions & Technology Html Template
+   Author : ITcroc	
+   Support: https://itcroc.ticksy.com/
+   Description: Cresta - IT Solutions & Technology Html Template 
+   Version: 1.0
 
 ----------------------------------------------
 
@@ -33,30 +38,35 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet');
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); /* For headings */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"); /* For body and paragraphs */
+
 :root {
   /**
   @font family declaration
   */
-  --tg-ff-body: "Space Grotesk", sans-serif;
-  --tg-ff-heading: "Space Grotesk", sans-serif;
-  --tg-ff-p: "Space Grotesk", sans-serif;
+  --tg-ff-body: "Open Sans", sans-serif;
+  --tg-ff-heading: "Poppins", sans-serif;
+  --tg-ff-p: "Open Sans", sans-serif;
   --tg-ff-fontawesome: "Font Awesome 6 Pro";
+
   /**
-  @color declaration
-  */
-  --tg-common-white: #fff;
-  --tg-common-black: #05092b;
-  --tg-common-black-dark: #1d2142;
-  --tg-common-yellow: #f8bc26;
-  --tg-grey-1: #f9f9f9;
-  --tg-text-body: #737373;
-  --tg-theme-1: #351ee0;
-  --tg-theme-2: #111536;
-  --tg-gradient-1: #351ee0;
-  --tg-gradient-2: #3f74ef;
-  --tg-border-1: #cccccc;
+    @color declaration
+    */
+  --tg-common-white: #ffffff; /* No change, white is standard */
+  --tg-common-black: #333333; /* Softer black for better readability */
+  --tg-common-black-dark: #292929; /* Dark grey for less contrast */
+  --tg-common-yellow: #ffc107; /* Brighter yellow for more vibrancy */
+  --tg-grey-1: #f2f2f2; /* Lighter grey for a modern look */
+  --tg-text-body: #595959; /* Darker grey for better readability */
+  --tg-theme-1: #00897b; /* Updated teal for a fresher look */
+  --tg-theme-2: #2c3e50; /* Navy blue for a professional feel */
+  --tg-gradient-1: #26a69a; /* Lighter gradient start for smooth transition */
+  --tg-gradient-2: #5c6bc0; /* Purplish-blue gradient end for a pop of color */
+  --tg-border-1: #e0e0e0; /* Lighter border for subtle separation */
 }
+
 
 .container,
 .container-lg,
